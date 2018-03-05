@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Local Weather App</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+        <div class="container containter-fluid">
+                <div class="col-md-4">
+            
+                </div>
+                <div class="col-md-4">
+                  <h1 class="display-4">how about that weather?..<span id='cursor'>.</span></h1>
+                  <div class="weather-icon containter-fluid">
+                    <span class="weatherIcon"></span>
+                  </div>
+                  <p class="lead">
+                    <span class="timeOfDay"></span> The current temperature in
+                    <span class="location"></span> is
+                    <span class="weather"></span>
+                    <span class="degrees">degrees.</span>
+                  </p>
+                  <br><input type="checkbox" id="check">celsius</input>
+                </div>
+              </div>
+              <div class="col-md-4">
+              </div>
+              </div>
+              <script src="app.js"></script>
+</body>
+</html>
